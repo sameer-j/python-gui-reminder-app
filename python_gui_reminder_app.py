@@ -60,8 +60,8 @@ print('-------------------------------------------------')
 print('Once started, the app runs indefinetly till you ask it stop.')
 print('It will pop up a message window every set snooze interval time to remind you to do eye exercise.')
 print('-------------')
-# snooze_time = int(input('Enter Snooze interval:'))
-snooze_time = 3
+snooze_time = int(input('Enter Snooze interval:'))
+# snooze_time = 3
 print('\n\nThanks! You will get your first reminder in {0} seconds'.format(snooze_time))
 print('\n\n')
 print('App started....')
